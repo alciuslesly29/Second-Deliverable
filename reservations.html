@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alrestaurant - Reservations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Reserve a Table</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="banner-placeholder.jpg" alt="Make a Reservation">
+    </section>
+
+    <section class="reservation-container">
+        <h2 class="section-title">Book Your Table</h2>
+        
+        <p>Reserve online or call us directly:</p>
+
+        <div class="reservation-phone">
+            <strong>📞 Call to Reserve:</strong>  
+            <a href="tel:7818170195">(781) 817-0195</a>
+        </div>
+
+        <a href="tel:7818170195" class="call-button">
+            &#9742; Click to Call
+        </a>
+
+        <form class="reservation-form">
+            <label for="name">&#128100; Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            <label for="email">&#9993; Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="phone">&#128222; Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+            <label for="date">&#128197; Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">&#9200; Time:</label>
+            <input type="time" id="time" required>
+
+            <label for="guests">&#127869; Number of Guests:</label>
+            <input type="number" id="guests" min="1" required>
+
+            <button type="submit">&#9989; Reserve Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alrestaurant. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
